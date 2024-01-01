@@ -3,12 +3,29 @@
     --color-text-on-primary: #ffffff;
 
     --font-family: "Inter",sans-serif;
+
+    --color-button-primary-bg: var(--color-text-on-primary);
+    --color-button-primary-text: var(--color-primary);
+
+    --color-button-secondary-bg: var(--color-primary);
+    --color-button-secondary-text: var(--color-text-on-primary);
+    --color-button-border: var(--color-text-on-primary);
 }
 
-body {
+.home-page-body {
     background-color: var(--color-primary);
     color: var(--color-text-on-primary);
     font-family: var(--font-family);
+}
+
+.speaker-page-body {
+    background-color: var(--color-text-on-primary);
+    color: var(--color-primary);
+    font-family: var(--font-family);    
+}
+
+a,h2,p {
+    margin: 0;
 }
 
 a {
@@ -71,5 +88,6 @@ nav {
     margin-right: 36px;
     font-size: 20px;
 } 
+
 
 
